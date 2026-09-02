@@ -1,0 +1,75 @@
+about:
+  description: SCons - a software construction tool
+  license: MIT
+  homepage: http://scons.org
+  head: e79b0a1
+  archived: false
+  latestVersion: 4.11.1
+  collectedAt: 2026-09-02T05:08:27Z
+timeline:
+  created: 2017-09-24
+  lastCommit: 2026-08-28
+  lastRelease: 2026-08-27
+popularity:
+  star: 2416
+  watcher: 56
+  fork: 357
+  release: 18
+  contributor: 123
+  pullRequest: 165
+  issue: 3452
+language:
+  Python: 8501250
+  HTML: 817651
+  JavaScript: 214329
+  Shell: 47109
+  Perl: 21398
+  CSS: 18334
+  Ruby: 10888
+  Java: 10449
+  C: 8840
+  Makefile: 7116
+  XSLT: 6932
+  PowerShell: 6871
+  D: 4026
+  Fortran: 3090
+  Dockerfile: 2793
+  C++: 2474
+  Batchfile: 1840
+  Yacc: 500
+  Lex: 65
+  Roff: 4
+totalLine: 9685959
+recent:
+  last30d:
+    since: 2026-08-03
+    release: 2
+    mergedPR: 7
+    openPR: 1
+    closedIssue: 2
+    openIssue: 0
+    commit: 33
+  last90d:
+    since: 2026-06-04
+    release: 2
+    mergedPR: 25
+    openPR: 3
+    closedIssue: 4
+    openIssue: 1
+    commit: 110
+  last180d:
+    since: 2026-03-06
+    release: 2
+    mergedPR: 49
+    openPR: 5
+    closedIssue: 6
+    openIssue: 1
+    commit: 219
+  last360d:
+    since: 2025-09-07
+    release: 4
+    mergedPR: 101
+    openPR: 9
+    closedIssue: 9
+    openIssue: 4
+    commit: 392
