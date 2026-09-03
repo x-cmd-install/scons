@@ -1,11 +1,13 @@
 about:
-  description: SCons - a software construction tool
+  description:
+  |
+    SCons - a software construction tool
   license: MIT
   homepage: http://scons.org
   head: e79b0a1
   archived: false
   latestVersion: 4.11.1
-  collectedAt: 2026-09-03T05:12:19Z
+  collectedAt: 2026-09-03T22:38:15Z
 timeline:
   created: 2017-09-24
   lastCommit: 2026-08-28
@@ -39,7 +41,7 @@ language:
   Yacc: 500
   Lex: 65
   Roff: 4
-totalLine: 9685959
+totalBytes: 9685959
 recent:
   last30d:
     since: 2026-08-04
