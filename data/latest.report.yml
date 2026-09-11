@@ -7,7 +7,7 @@ about:
   latestVersion: "4.11.1"
   latestRelease: "4.11.1"
   latestPrerelease: "3.0.5a2"
-  collectedAt: 2026-09-11T05:45:08Z
+  collectedAt: 2026-09-11T19:17:44Z
 timeline:
   created: 2017-09-24
   lastCommit: 2026-09-08
@@ -15,7 +15,7 @@ timeline:
   lastRelease: 2026-08-27
   lastPrerelease: 2019-03-05
 popularity:
-  star: 2417
+  star: 2418
   watcher: 55
   fork: 357
   release: 18
@@ -102,7 +102,7 @@ total:
   commit: 10103
 ---
 path: /home/runner/.x-repo/github.com/SCons/scons
-collectedAt: 2026-09-11T05:45:19Z
+collectedAt: 2026-09-11T19:17:57Z
 loc:
   Python:
     code: 162730
