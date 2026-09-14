@@ -47,41 +47,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 2,418 · **Forks**: 357 · **Open issues**: 3,453 · **Contributors**: 123
+- **Stars**: 2,418 · **Forks**: 359 · **Open issues**: 3,453 · **Contributors**: 123
 
 ## Totals (cumulative)
 
-- **Releases**: 18 · **Merged PRs**: 1207 · **Open PRs**: 25 · **Closed issues**: 2825 · **Open issues**: 628 · **Commits**: 10103
+- **Releases**: 18 · **Merged PRs**: 1207 · **Open PRs**: 26 · **Closed issues**: 2825 · **Open issues**: 628 · **Commits**: 10103
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-14 | 1 | 5 | 2 | 0 | 1 | 24 |
-| last60d | 2026-07-15 | 2 | 16 | 4 | 2 | 1 | 53 |
-| 90d | 2026-06-15 | 2 | 24 | 4 | 3 | 2 | 84 |
-| last180d | 2026-03-17 | 2 | 48 | 6 | 5 | 2 | 208 |
-| 360d | 2025-09-18 | 4 | 100 | 10 | 9 | 5 | 390 |
-| last720d | 2024-09-23 | 6 | 193 | 11 | 35 | 16 | 787 |
-
-## Distribution status
-
-Reported by **244** distros on [repology.org](https://repology.org/project/scons). **29** are ✅ on the latest upstream release, **154** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `4.10.1` | ⚠️ outdated |
-| Debian 14 | `4.10.1` | ⚠️ outdated |
-| Debian 13 | `4.8.1` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `4.8.1` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `4.5.2` | ⚠️ outdated |
-| Arch | `4.11.1` | ✅ latest |
-| Homebrew | `4.11.1` | ✅ latest |
-| Fedora rawhide | `4.11.0` | ⚠️ outdated |
-| Nix unstable | `4.10.1` | ⚠️ outdated |
-| Void | `4.10.1` | ⚠️ outdated |
-| Alpine edge | `4.10.1` | ⚠️ outdated |
-| openSUSE Tumbleweed | `4.10.1` | ⚠️ outdated |
+| 30d | 2026-08-15 | 1 | 5 | 3 | 0 | 1 | 24 |
+| last60d | 2026-07-16 | 2 | 16 | 5 | 2 | 1 | 53 |
+| 90d | 2026-06-16 | 2 | 24 | 5 | 3 | 2 | 84 |
+| last180d | 2026-03-18 | 2 | 48 | 7 | 5 | 2 | 208 |
+| 360d | 2025-09-19 | 4 | 100 | 11 | 9 | 5 | 390 |
+| last720d | 2024-09-24 | 6 | 193 | 12 | 34 | 16 | 785 |
 
 ## Improve this data
 
@@ -92,4 +73,4 @@ Install metadata for scons lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260913.yml` · 2026-09-13T05:55:13Z._
+_Snapshot: `data/card/260914.yml` · 2026-09-14T06:19:28Z._
