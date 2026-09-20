@@ -4,7 +4,7 @@
 
 SCons - a software construction tool
 
-![scons](https://repo.x-cmd.io/scons.svg?lang=zh)
+[![x-cmd/install — scons Code Quality Monitoring Repo Card](https://repo.x-cmd.io/scons.svg?lang=zh)](https://x-cmd.com/install/scons)
 
 ## 安装
 
@@ -47,22 +47,22 @@ x install scons
 
 ## 流行度
 
-- **Star**: 2,419 · **Fork**: 360 · **开放 issue**: 3,453 · **贡献者**: 124
+- **Star**: 2,422 · **Fork**: 359 · **开放 issue**: 3,453 · **贡献者**: 124
 
 ## 累计统计
 
-- **发布数**: 18 · **已合并 PR**: 1208 · **开放 PR**: 26 · **已关闭 issue**: 2825 · **开放 issue**: 628 · **提交数**: 10106
+- **发布数**: 18 · **已合并 PR**: 1208 · **开放 PR**: 26 · **已关闭 issue**: 2826 · **开放 issue**: 627 · **提交数**: 10106
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-19 | 1 | 5 | 3 | 0 | 1 | 27 |
-| last60d | 2026-07-20 | 2 | 14 | 5 | 2 | 1 | 56 |
-| 90d | 2026-06-20 | 2 | 25 | 5 | 3 | 2 | 87 |
-| last180d | 2026-03-22 | 2 | 47 | 7 | 5 | 2 | 211 |
-| 360d | 2025-09-23 | 4 | 99 | 11 | 9 | 5 | 393 |
-| last720d | 2024-09-28 | 6 | 194 | 12 | 34 | 16 | 785 |
+| 30d | 2026-08-21 | 1 | 5 | 3 | 1 | 0 | 10 |
+| last60d | 2026-07-22 | 2 | 13 | 5 | 3 | 0 | 48 |
+| 90d | 2026-06-22 | 2 | 25 | 5 | 4 | 1 | 82 |
+| last180d | 2026-03-24 | 2 | 46 | 7 | 6 | 1 | 205 |
+| 360d | 2025-09-25 | 4 | 99 | 11 | 10 | 4 | 392 |
+| last720d | 2024-09-30 | 6 | 194 | 12 | 35 | 15 | 784 |
 
 ## 改进这些数据
 
@@ -73,4 +73,4 @@ scons 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260918.yml` · 2026-09-18T05:57:17Z._
+_数据快照: `data/card/260920.yml` · 2026-09-20T06:11:14Z._
