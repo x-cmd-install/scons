@@ -26,12 +26,12 @@ x install scons
 
 ## OpenSSF Scorecard 评分
 
-总评分: **3.6 / 10**
+总评分: **3.7 / 10**
 
 评分最低的几项:
 
+- **Code-Review** (4/10) — Found 6/14 approved changesets -- score normalized to 4
 - **Packaging** (-1/10) — packaging workflow not detected
-- **Code-Review** (3/10) — Found 5/14 approved changesets -- score normalized to 3
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 
 ## 源代码
@@ -47,22 +47,22 @@ x install scons
 
 ## 流行度
 
-- **Star**: 2,422 · **Fork**: 359 · **开放 issue**: 3,453 · **贡献者**: 124
+- **Star**: 2,421 · **Fork**: 360 · **开放 issue**: 3,453 · **贡献者**: 124
 
 ## 累计统计
 
-- **发布数**: 18 · **已合并 PR**: 1208 · **开放 PR**: 26 · **已关闭 issue**: 2826 · **开放 issue**: 627 · **提交数**: 10106
+- **发布数**: 18 · **已合并 PR**: 1208 · **开放 PR**: 27 · **已关闭 issue**: 2826 · **开放 issue**: 627 · **提交数**: 10106
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-22 | 1 | 5 | 3 | 1 | 0 | 10 |
-| last60d | 2026-07-23 | 2 | 13 | 5 | 3 | 0 | 48 |
-| 90d | 2026-06-23 | 2 | 25 | 5 | 4 | 1 | 82 |
-| last180d | 2026-03-25 | 2 | 45 | 7 | 6 | 1 | 205 |
-| 360d | 2025-09-26 | 4 | 99 | 11 | 10 | 4 | 392 |
-| last720d | 2024-10-01 | 6 | 194 | 12 | 35 | 15 | 784 |
+| 30d | 2026-08-23 | 1 | 5 | 4 | 1 | 0 | 10 |
+| last60d | 2026-07-24 | 2 | 13 | 6 | 3 | 0 | 48 |
+| 90d | 2026-06-24 | 2 | 25 | 6 | 4 | 1 | 82 |
+| last180d | 2026-03-26 | 2 | 45 | 8 | 6 | 1 | 205 |
+| 360d | 2025-09-27 | 4 | 99 | 12 | 10 | 4 | 392 |
+| last720d | 2024-10-02 | 6 | 194 | 13 | 35 | 15 | 782 |
 
 ## 改进这些数据
 
@@ -73,4 +73,4 @@ scons 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260921.yml` · 2026-09-21T06:04:58Z._
+_数据快照: `data/card/260922.yml` · 2026-09-22T06:09:25Z._
