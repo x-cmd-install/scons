@@ -14,11 +14,11 @@ x install scons
 
 ## Code insight
 
-Total: **317,966** lines of code across **2405** files in the top 5 languages.
+Total: **318,111** lines of code across **2405** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Python | 162,754 | 50,787 | 37,815 | 1761 |
+| Python | 162,899 | 50,790 | 37,821 | 1761 |
 | Xml | 78,861 | 5,011 | 7,914 | 544 |
 | XSL | 37,221 | 2,050 | 4,906 | 58 |
 | Svg | 29,535 | 19 | 15 | 19 |
@@ -43,7 +43,7 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `4.11.1` (2026-08-27)
-- **Last commit**: 2026-09-16
+- **Last commit**: 2026-09-23
 
 ## Popularity
 
@@ -51,18 +51,18 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 18 · **Merged PRs**: 1208 · **Open PRs**: 27 · **Closed issues**: 2826 · **Open issues**: 627 · **Commits**: 10106
+- **Releases**: 18 · **Merged PRs**: 1210 · **Open PRs**: 28 · **Closed issues**: 2826 · **Open issues**: 627 · **Commits**: 10111
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-24 | 1 | 4 | 4 | 1 | 0 | 10 |
-| last60d | 2026-07-25 | 2 | 13 | 6 | 3 | 0 | 48 |
-| 90d | 2026-06-25 | 2 | 25 | 6 | 4 | 1 | 82 |
-| last180d | 2026-03-27 | 2 | 45 | 8 | 6 | 1 | 205 |
-| 360d | 2025-09-28 | 4 | 99 | 12 | 10 | 4 | 392 |
-| last720d | 2024-10-03 | 6 | 194 | 13 | 35 | 15 | 782 |
+| 30d | 2026-08-25 | 1 | 6 | 5 | 1 | 0 | 15 |
+| last60d | 2026-07-26 | 2 | 13 | 7 | 3 | 0 | 53 |
+| 90d | 2026-06-26 | 2 | 26 | 7 | 4 | 1 | 87 |
+| last180d | 2026-03-28 | 2 | 47 | 9 | 6 | 1 | 210 |
+| 360d | 2025-09-29 | 4 | 101 | 13 | 10 | 4 | 397 |
+| last720d | 2024-10-04 | 6 | 196 | 14 | 35 | 15 | 787 |
 
 ## Improve this data
 
@@ -73,4 +73,4 @@ Install metadata for scons lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260923.yml` · 2026-09-23T06:09:34Z._
+_Snapshot: `data/card/260924.yml` · 2026-09-24T05:39:40Z._
