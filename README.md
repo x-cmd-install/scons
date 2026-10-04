@@ -57,12 +57,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-03 | 0 | 4 | 8 | 1 | 1 | 13 |
-| last60d | 2026-08-04 | 2 | 9 | 9 | 3 | 1 | 49 |
-| 90d | 2026-07-05 | 2 | 24 | 11 | 3 | 1 | 85 |
-| last180d | 2026-04-06 | 2 | 45 | 13 | 6 | 2 | 190 |
-| 360d | 2025-10-08 | 3 | 99 | 17 | 10 | 5 | 391 |
-| last720d | 2024-10-13 | 6 | 192 | 18 | 31 | 16 | 776 |
+| 30d | 2026-09-04 | 0 | 4 | 8 | 1 | 1 | 8 |
+| last60d | 2026-08-05 | 2 | 9 | 9 | 3 | 1 | 34 |
+| 90d | 2026-07-06 | 2 | 23 | 11 | 3 | 1 | 81 |
+| last180d | 2026-04-07 | 2 | 45 | 13 | 6 | 2 | 176 |
+| 360d | 2025-10-09 | 3 | 99 | 17 | 10 | 5 | 391 |
+| last720d | 2024-10-14 | 6 | 192 | 18 | 31 | 15 | 775 |
 
 ## Improve this data
 
@@ -73,4 +73,4 @@ Install metadata for scons lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261003.yml` · 2026-10-03T06:09:10Z._
+_Snapshot: `data/card/261004.yml` · 2026-10-04T06:41:54Z._
