@@ -14,12 +14,12 @@ x install scons
 
 ## Code insight
 
-Total: **318,300** lines of code across **2406** files in the top 5 languages.
+Total: **318,144** lines of code across **2406** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Python | 163,243 | 50,846 | 37,871 | 1762 |
-| Xml | 78,681 | 5,012 | 7,883 | 544 |
+| Python | 163,096 | 50,809 | 37,835 | 1762 |
+| Xml | 78,672 | 5,011 | 7,885 | 544 |
 | XSL | 37,221 | 2,050 | 4,906 | 58 |
 | Svg | 29,535 | 19 | 15 | 19 |
 | ReStructuredText | 3,526 | 0 | 1,183 | 23 |
@@ -43,26 +43,26 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `4.11.1` (2026-08-27)
-- **Last commit**: 2026-10-05
+- **Last commit**: 2026-10-12
 
 ## Popularity
 
-- **Stars**: 2,433 · **Forks**: 363 · **Open issues**: 3,454 · **Contributors**: 123
+- **Stars**: 2,433 · **Forks**: 362 · **Open issues**: 3,454 · **Contributors**: 125
 
 ## Totals (cumulative)
 
-- **Releases**: 18 · **Merged PRs**: 1212 · **Open PRs**: 32 · **Closed issues**: 2826 · **Open issues**: 628 · **Commits**: 10120
+- **Releases**: 18 · **Merged PRs**: 1216 · **Open PRs**: 28 · **Closed issues**: 2829 · **Open issues**: 625 · **Commits**: 10132
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-11 | 0 | 4 | 8 | 0 | 1 | 8 |
-| last60d | 2026-08-12 | 1 | 10 | 9 | 2 | 1 | 48 |
-| 90d | 2026-07-13 | 2 | 22 | 11 | 3 | 1 | 79 |
-| last180d | 2026-04-14 | 2 | 46 | 13 | 6 | 2 | 186 |
-| 360d | 2025-10-16 | 3 | 101 | 17 | 8 | 4 | 396 |
-| last720d | 2024-10-21 | 6 | 191 | 18 | 30 | 15 | 771 |
+| 30d | 2026-09-12 | 0 | 8 | 4 | 0 | 1 | 21 |
+| last60d | 2026-08-13 | 1 | 14 | 5 | 2 | 1 | 61 |
+| 90d | 2026-07-14 | 2 | 25 | 7 | 3 | 1 | 92 |
+| last180d | 2026-04-15 | 2 | 50 | 9 | 6 | 2 | 199 |
+| 360d | 2025-10-17 | 3 | 104 | 13 | 8 | 4 | 409 |
+| last720d | 2024-10-22 | 6 | 195 | 14 | 31 | 14 | 781 |
 
 ## Improve this data
 
@@ -73,4 +73,4 @@ Install metadata for scons lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261011.yml` · 2026-10-11T06:33:24Z._
+_Snapshot: `data/card/261012.yml` · 2026-10-12T06:57:59Z._
