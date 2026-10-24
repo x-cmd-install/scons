@@ -47,7 +47,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 2,437 · **Forks**: 363 · **Open issues**: 3,455 · **Contributors**: 128
+- **Stars**: 2,436 · **Forks**: 364 · **Open issues**: 3,455 · **Contributors**: 128
 
 ## Totals (cumulative)
 
@@ -57,16 +57,16 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-23 | 0 | 23 | 2 | 0 | 2 | 85 |
-| last60d | 2026-08-24 | 1 | 32 | 4 | 1 | 2 | 128 |
-| 90d | 2026-07-25 | 2 | 41 | 6 | 3 | 2 | 151 |
-| last180d | 2026-04-26 | 2 | 67 | 8 | 6 | 3 | 269 |
-| 360d | 2025-10-28 | 3 | 121 | 12 | 8 | 5 | 479 |
-| last720d | 2024-11-02 | 6 | 214 | 13 | 30 | 15 | 829 |
+| 30d | 2026-09-24 | 0 | 23 | 2 | 0 | 2 | 85 |
+| last60d | 2026-08-25 | 1 | 32 | 4 | 1 | 2 | 128 |
+| 90d | 2026-07-26 | 2 | 39 | 6 | 3 | 2 | 151 |
+| last180d | 2026-04-27 | 2 | 67 | 8 | 6 | 3 | 269 |
+| 360d | 2025-10-29 | 3 | 121 | 12 | 8 | 5 | 479 |
+| last720d | 2024-11-03 | 6 | 214 | 13 | 30 | 15 | 829 |
 
 ## Distribution status
 
-Reported by **240** distros on [repology.org](https://repology.org/project/scons). **36** are ✅ on the latest upstream release, **141** are ⚠️ on an older version.
+Reported by **241** distros on [repology.org](https://repology.org/project/scons). **37** are ✅ on the latest upstream release, **141** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -92,4 +92,4 @@ Install metadata for scons lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261023.yml` · 2026-10-23T05:44:55Z._
+_Snapshot: `data/card/261024.yml` · 2026-10-24T05:29:21Z._
