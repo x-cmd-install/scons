@@ -26,7 +26,7 @@ Total: **319,131** lines of code across **2413** files in the top 5 languages.
 
 ## OpenSSF Scorecard
 
-Overall score: **4.2 / 10**
+Overall score: **4.1 / 10**
 
 Lowest-scoring checks:
 
@@ -47,22 +47,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 2,435 · **Forks**: 364 · **Open issues**: 3,455 · **Contributors**: 128
+- **Stars**: 2,436 · **Forks**: 364 · **Open issues**: 3,455 · **Contributors**: 128
 
 ## Totals (cumulative)
 
-- **Releases**: 18 · **Merged PRs**: 1239 · **Open PRs**: 26 · **Closed issues**: 2833 · **Open issues**: 622 · **Commits**: 10206
+- **Releases**: 18 · **Merged PRs**: 1239 · **Open PRs**: 27 · **Closed issues**: 2833 · **Open issues**: 622 · **Commits**: 10206
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-26 | 0 | 25 | 2 | 0 | 1 | 91 |
-| last60d | 2026-08-27 | 1 | 34 | 3 | 1 | 2 | 114 |
-| 90d | 2026-07-28 | 2 | 42 | 4 | 3 | 2 | 159 |
-| last180d | 2026-04-29 | 2 | 69 | 7 | 6 | 3 | 276 |
-| 360d | 2025-10-31 | 3 | 124 | 10 | 8 | 5 | 485 |
-| last720d | 2024-11-05 | 6 | 217 | 12 | 30 | 15 | 839 |
+| 30d | 2026-09-27 | 0 | 25 | 3 | 0 | 1 | 91 |
+| last60d | 2026-08-28 | 0 | 33 | 4 | 1 | 2 | 114 |
+| 90d | 2026-07-29 | 2 | 41 | 5 | 3 | 2 | 159 |
+| last180d | 2026-04-30 | 2 | 69 | 8 | 6 | 3 | 276 |
+| 360d | 2025-11-01 | 3 | 124 | 11 | 8 | 5 | 485 |
+| last720d | 2024-11-06 | 6 | 217 | 13 | 30 | 15 | 839 |
 
 ## Distribution status
 
@@ -92,4 +92,4 @@ Install metadata for scons lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261026.yml` · 2026-10-26T05:38:19Z._
+_Snapshot: `data/card/261027.yml` · 2026-10-27T06:03:14Z._
