@@ -1,3 +1,14 @@
+- repo: epel_6
+  srcname: scons
+  visiblename: scons
+  version: 2.0.1
+  origversion: 2.0.1-1.el6
+  status: outdated
+  summary: An Open Source software construction tool
+  licenses:
+    - MIT
+  categories:
+    - Development/Tools
 - repo: deepin_unstable
   subrepo: main
   srcname: scons-doc
@@ -10,153 +21,6 @@
   maintainers:
     - debian@jff.email
     - gcs@debian.org
-- repo: deepin_23
-  subrepo: main
-  srcname: scons
-  binnames:
-    - scons
-    - scons-doc
-  visiblename: scons
-  version: 4.5.2
-  origversion: 4.5.2+dfsg-1
-  status: outdated
-  maintainers:
-    - gcs@debian.org
-  categories:
-    - misc
-- repo: deepin_25
-  subrepo: main
-  srcname: scons
-  binnames:
-    - scons
-    - scons-doc
-  visiblename: scons
-  version: 4.5.2
-  origversion: 4.5.2+dfsg-1
-  status: outdated
-  maintainers:
-    - gcs@debian.org
-  categories:
-    - devel
-- repo: devuan_4_0
-  subrepo: chimaera/main
-  srcname: scons
-  binnames:
-    - scons
-    - scons-doc
-  visiblename: scons
-  version: 4.0.1
-  origversion: 4.0.1+dfsg-2
-  status: outdated
-  maintainers:
-    - gcs@debian.org
-  categories:
-    - devel
-- repo: apertis_v2025
-  subrepo: v2025/development
-  srcname: scons
-  binnames:
-    - scons
-    - scons-doc
-  visiblename: scons
-  version: 4.4.0
-  origversion: 4.4.0+dfsg-1+apertis1
-  status: outdated
-  maintainers:
-    - gcs@debian.org
-- repo: aix_osp
-  srcname: scons
-  visiblename: scons
-  version: 2.5.1
-  origversion: 2.5.1-1
-  status: legacy
-- repo: aix_osp
-  srcname: scons
-  visiblename: scons
-  version: 3.0.0
-  origversion: 3.0.0-1
-  status: legacy
-- repo: aix_osp
-  srcname: scons
-  visiblename: scons
-  version: 3.0.1
-  origversion: 3.0.1-1
-  status: outdated
-- repo: raspbian_testing
-  subrepo: main
-  srcname: scons
-  binnames:
-    - scons
-    - scons-doc
-  visiblename: scons
-  version: 4.10.1
-  origversion: 4.10.1+dfsg-2
-  status: outdated
-  maintainers:
-    - gcs@debian.org
-  categories:
-    - devel
-- repo: devuan_unstable
-  subrepo: unstable/main
-  srcname: scons
-  binnames:
-    - scons
-    - scons-doc
-  visiblename: scons
-  version: 4.10.1
-  origversion: 4.10.1+dfsg-2
-  status: outdated
-  maintainers:
-    - gcs@debian.org
-  categories:
-    - devel
-- repo: aixtoolbox
-  srcname: python3.12-scons
-  visiblename: python3.12-scons
-  version: 4.9.1
-  origversion: 4.9.1-1
-  status: outdated
-  summary: An Open Source software construction tool
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
-- repo: aixtoolbox
-  srcname: python3.9-scons
-  visiblename: python3.9-scons
-  version: 4.4.0
-  origversion: 4.4.0-1
-  status: outdated
-  summary: An Open Source software construction tool
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
-- repo: aixtoolbox
-  srcname: scons
-  visiblename: scons
-  version: 3.1.1
-  origversion: 3.1.1-3
-  status: outdated
-  summary: An Open Source software construction tool
-  licenses:
-    - MIT
-  categories:
-    - Development/Tools
-- repo: almalinux_8
-  subrepo: PowerTools
-  srcname: scons
-  visiblename: scons
-  version: 3.1.2
-  origversion: 3.1.2-1.el8
-  status: outdated
-  summary: An Open Source software construction tool
-  maintainers:
-    - packager@almalinux.org
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
 - repo: adelie_current
   subrepo: user
   srcname: scons
@@ -269,174 +133,227 @@
   version: 2.5.0
   origversion: 2.5.0-1
   status: legacy
-- repo: alpine_3_17
-  subrepo: main
+- repo: aix_osp
   srcname: scons
-  binname: scons
   visiblename: scons
+  version: 2.5.1
+  origversion: 2.5.1-1
+  status: legacy
+- repo: aix_osp
+  srcname: scons
+  visiblename: scons
+  version: 3.0.0
+  origversion: 3.0.0-1
+  status: legacy
+- repo: aix_osp
+  srcname: scons
+  visiblename: scons
+  version: 3.0.1
+  origversion: 3.0.1-1
+  status: outdated
+- repo: aixtoolbox
+  srcname: python3.12-scons
+  visiblename: python3.12-scons
+  version: 4.9.1
+  origversion: 4.9.1-1
+  status: outdated
+  summary: An Open Source software construction tool
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+- repo: aixtoolbox
+  srcname: python3.9-scons
+  visiblename: python3.9-scons
   version: 4.4.0
-  origversion: 4.4.0-r0
+  origversion: 4.4.0-1
   status: outdated
-  summary: Software construction system
-  maintainers:
-    - fallback-mnt-alpine@repology
+  summary: An Open Source software construction tool
   licenses:
     - MIT
-- repo: alpine_3_17
-  subrepo: main
-  srcname: scons
-  binname: scons-doc
-  visiblename: scons-doc
-  version: 4.4.0
-  origversion: 4.4.0-r0
-  status: outdated
-  summary: Software construction system (documentation)
-  maintainers:
-    - fallback-mnt-alpine@repology
-  licenses:
-    - MIT
-- repo: alpine_3_18
-  subrepo: main
-  srcname: scons
-  binname: scons
-  visiblename: scons
-  version: 4.5.2
-  origversion: 4.5.2-r1
-  status: outdated
-  summary: Software construction system
-  maintainers:
-    - fallback-mnt-alpine@repology
-  licenses:
-    - MIT
-- repo: alpine_3_18
-  subrepo: main
-  srcname: scons
-  binname: scons-doc
-  visiblename: scons-doc
-  version: 4.5.2
-  origversion: 4.5.2-r1
-  status: outdated
-  summary: Software construction system (documentation)
-  maintainers:
-    - fallback-mnt-alpine@repology
-  licenses:
-    - MIT
-- repo: alpine_3_18
-  subrepo: main
-  srcname: scons
-  binname: scons-pyc
-  visiblename: scons-pyc
-  version: 4.5.2
-  origversion: 4.5.2-r1
-  status: outdated
-  summary: Precompiled Python bytecode for scons
-  maintainers:
-    - fallback-mnt-alpine@repology
-  licenses:
-    - MIT
-- repo: alpine_3_19
-  subrepo: main
-  srcname: scons
-  binname: scons
-  visiblename: scons
-  version: 4.5.2
-  origversion: 4.5.2-r3
-  status: outdated
-  summary: Software construction system
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_3_19
-  subrepo: main
-  srcname: scons
-  binname: scons-doc
-  visiblename: scons-doc
-  version: 4.5.2
-  origversion: 4.5.2-r3
-  status: outdated
-  summary: Software construction system (documentation)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_3_19
-  subrepo: main
-  srcname: scons
-  binname: scons-pyc
-  visiblename: scons-pyc
-  version: 4.5.2
-  origversion: 4.5.2-r3
-  status: outdated
-  summary: Precompiled Python bytecode for scons
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_3_20
-  subrepo: main
-  srcname: scons
-  binname: scons
-  visiblename: scons
-  version: 4.7.0
-  origversion: 4.7.0-r1
-  status: outdated
-  summary: Software construction system
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_3_20
-  subrepo: main
-  srcname: scons
-  binname: scons-doc
-  visiblename: scons-doc
-  version: 4.7.0
-  origversion: 4.7.0-r1
-  status: outdated
-  summary: Software construction system (documentation)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_3_20
-  subrepo: main
-  srcname: scons
-  binname: scons-pyc
-  visiblename: scons-pyc
-  version: 4.7.0
-  origversion: 4.7.0-r1
-  status: outdated
-  summary: Precompiled Python bytecode for scons
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_3_21
-  subrepo: main
-  srcname: scons
-  binname: scons
-  visiblename: scons
-  version: 4.8.1
-  origversion: 4.8.1-r0
-  status: outdated
-  summary: Software construction system
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - MIT
-- repo: centos_6
-  subrepo: os
+  categories:
+    - Unspecified
+- repo: aixtoolbox
   srcname: scons
   visiblename: scons
-  version: 2.0.1
-  origversion: 2.0.1-1.el6
+  version: 3.1.1
+  origversion: 3.1.1-3
   status: outdated
   summary: An Open Source software construction tool
   licenses:
     - MIT
   categories:
     - Development/Tools
+- repo: almalinux_8
+  subrepo: PowerTools
+  srcname: scons
+  visiblename: scons
+  version: 3.1.2
+  origversion: 3.1.2-1.el8
+  status: outdated
+  summary: An Open Source software construction tool
+  maintainers:
+    - packager@almalinux.org
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+- repo: alpine_3_17
+  subrepo: main
+  srcname: scons
+  binname: scons
+  visiblename: scons
+  version: 4.4.0
+  origversion: 4.4.0-r0
+  status: outdated
+  summary: Software construction system
+  maintainers:
+    - fallback-mnt-alpine@repology
+  licenses:
+    - MIT
+- repo: alpine_3_17
+  subrepo: main
+  srcname: scons
+  binname: scons-doc
+  visiblename: scons-doc
+  version: 4.4.0
+  origversion: 4.4.0-r0
+  status: outdated
+  summary: Software construction system (documentation)
+  maintainers:
+    - fallback-mnt-alpine@repology
+  licenses:
+    - MIT
+- repo: alpine_3_18
+  subrepo: main
+  srcname: scons
+  binname: scons
+  visiblename: scons
+  version: 4.5.2
+  origversion: 4.5.2-r1
+  status: outdated
+  summary: Software construction system
+  maintainers:
+    - fallback-mnt-alpine@repology
+  licenses:
+    - MIT
+- repo: alpine_3_18
+  subrepo: main
+  srcname: scons
+  binname: scons-doc
+  visiblename: scons-doc
+  version: 4.5.2
+  origversion: 4.5.2-r1
+  status: outdated
+  summary: Software construction system (documentation)
+  maintainers:
+    - fallback-mnt-alpine@repology
+  licenses:
+    - MIT
+- repo: alpine_3_18
+  subrepo: main
+  srcname: scons
+  binname: scons-pyc
+  visiblename: scons-pyc
+  version: 4.5.2
+  origversion: 4.5.2-r1
+  status: outdated
+  summary: Precompiled Python bytecode for scons
+  maintainers:
+    - fallback-mnt-alpine@repology
+  licenses:
+    - MIT
+- repo: alpine_3_19
+  subrepo: main
+  srcname: scons
+  binname: scons
+  visiblename: scons
+  version: 4.5.2
+  origversion: 4.5.2-r3
+  status: outdated
+  summary: Software construction system
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - MIT
+- repo: alpine_3_19
+  subrepo: main
+  srcname: scons
+  binname: scons-doc
+  visiblename: scons-doc
+  version: 4.5.2
+  origversion: 4.5.2-r3
+  status: outdated
+  summary: Software construction system (documentation)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - MIT
+- repo: alpine_3_19
+  subrepo: main
+  srcname: scons
+  binname: scons-pyc
+  visiblename: scons-pyc
+  version: 4.5.2
+  origversion: 4.5.2-r3
+  status: outdated
+  summary: Precompiled Python bytecode for scons
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - MIT
+- repo: alpine_3_20
+  subrepo: main
+  srcname: scons
+  binname: scons
+  visiblename: scons
+  version: 4.7.0
+  origversion: 4.7.0-r1
+  status: outdated
+  summary: Software construction system
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - MIT
+- repo: alpine_3_20
+  subrepo: main
+  srcname: scons
+  binname: scons-doc
+  visiblename: scons-doc
+  version: 4.7.0
+  origversion: 4.7.0-r1
+  status: outdated
+  summary: Software construction system (documentation)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - MIT
+- repo: alpine_3_20
+  subrepo: main
+  srcname: scons
+  binname: scons-pyc
+  visiblename: scons-pyc
+  version: 4.7.0
+  origversion: 4.7.0-r1
+  status: outdated
+  summary: Precompiled Python bytecode for scons
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - MIT
+- repo: alpine_3_21
+  subrepo: main
+  srcname: scons
+  binname: scons
+  visiblename: scons
+  version: 4.8.1
+  origversion: 4.8.1-r0
+  status: outdated
+  summary: Software construction system
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - MIT
 - repo: alpine_3_21
   subrepo: main
   srcname: scons
@@ -476,6 +393,17 @@
     - ncopa@alpinelinux.org
   licenses:
     - MIT
+- repo: chimera
+  subrepo: main
+  srcname: scons
+  binname: scons
+  visiblename: scons
+  version: 4.10.0
+  origversion: 4.10.0-r1
+  status: outdated
+  summary: Build system nobody likes
+  licenses:
+    - MIT
 - repo: alpine_3_22
   subrepo: main
   srcname: scons
@@ -580,18 +508,6 @@
     - ncopa@alpinelinux.org
   licenses:
     - MIT
-- repo: deepin_unstable
-  subrepo: main
-  srcname: scons
-  binnames:
-    - scons
-  visiblename: scons
-  version: 3.0.1
-  origversion: 3.0.1-2
-  status: outdated
-  maintainers:
-    - debian@jff.email
-    - gcs@debian.org
 - repo: alpine_edge
   subrepo: main
   srcname: scons
@@ -629,6 +545,17 @@
   summary: Precompiled Python bytecode for scons
   maintainers:
     - ncopa@alpinelinux.org
+  licenses:
+    - MIT
+- repo: chimera
+  subrepo: main
+  srcname: scons
+  binname: scons-doc
+  visiblename: scons-doc
+  version: 4.10.0
+  origversion: 4.10.0-r1
+  status: outdated
+  summary: Build system nobody likes (documentation)
   licenses:
     - MIT
 - repo: alt_p11
@@ -646,6 +573,20 @@
     - MIT
   categories:
     - Development/Python
+- repo: deepin_23
+  subrepo: main
+  srcname: scons
+  binnames:
+    - scons
+    - scons-doc
+  visiblename: scons
+  version: 4.5.2
+  origversion: 4.5.2+dfsg-1
+  status: outdated
+  maintainers:
+    - gcs@debian.org
+  categories:
+    - misc
 - repo: altsisyphus
   srcname: scons
   binnames:
@@ -699,6 +640,18 @@
     - gcs@debian.org
 - repo: apertis_v2024
   subrepo: v2024/development
+  srcname: scons
+  binnames:
+    - scons
+    - scons-doc
+  visiblename: scons
+  version: 4.4.0
+  origversion: 4.4.0+dfsg-1+apertis1
+  status: outdated
+  maintainers:
+    - gcs@debian.org
+- repo: apertis_v2025
+  subrepo: v2025/development
   srcname: scons
   binnames:
     - scons
@@ -777,6 +730,18 @@
   summary: Extensible Python-based build utility. Python2 version
   licenses:
     - MIT
+- repo: centos_6
+  subrepo: os
+  srcname: scons
+  visiblename: scons
+  version: 2.0.1
+  origversion: 2.0.1-1.el6
+  status: outdated
+  summary: An Open Source software construction tool
+  licenses:
+    - MIT
+  categories:
+    - Development/Tools
 - repo: centos_8
   subrepo: PowerTools
   srcname: scons
@@ -819,28 +784,6 @@
     - MIT
   categories:
     - Unspecified
-- repo: chimera
-  subrepo: main
-  srcname: scons
-  binname: scons
-  visiblename: scons
-  version: 4.10.0
-  origversion: 4.10.0-r1
-  status: outdated
-  summary: Build system nobody likes
-  licenses:
-    - MIT
-- repo: chimera
-  subrepo: main
-  srcname: scons
-  binname: scons-doc
-  visiblename: scons-doc
-  version: 4.10.0
-  origversion: 4.10.0-r1
-  status: outdated
-  summary: Build system nobody likes (documentation)
-  licenses:
-    - MIT
 - repo: chimera
   subrepo: main
   srcname: scons
@@ -969,17 +912,18 @@
     - gcs@debian.org
   categories:
     - devel
-- repo: epel_6
+- repo: deepin_unstable
+  subrepo: main
   srcname: scons
+  binnames:
+    - scons
   visiblename: scons
-  version: 2.0.1
-  origversion: 2.0.1-1.el6
+  version: 3.0.1
+  origversion: 3.0.1-2
   status: outdated
-  summary: An Open Source software construction tool
-  licenses:
-    - MIT
-  categories:
-    - Development/Tools
+  maintainers:
+    - debian@jff.email
+    - gcs@debian.org
 - repo: epel_7
   srcname: scons
   visiblename: scons
@@ -1156,17 +1100,6 @@
     - MIT AND DocBook-Stylesheet
   categories:
     - Unspecified
-- repo: nix_stable_25_11
-  srcname: scons
-  visiblename: scons
-  version: 4.10.0
-  origversion: null
-  status: outdated
-  summary: Improved, cross-platform substitute for Make
-  maintainers:
-    - fallback-mnt-nix@repology
-  licenses:
-    - MIT
 - repo: fedora_43
   subrepo: release
   srcname: scons
@@ -1182,6 +1115,20 @@
     - MIT
   categories:
     - Unspecified
+- repo: pardus_21
+  subrepo: main
+  srcname: scons
+  binnames:
+    - scons
+    - scons-doc
+  visiblename: scons
+  version: 4.0.1
+  origversion: 4.0.1+dfsg-2
+  status: outdated
+  maintainers:
+    - gcs@debian.org
+  categories:
+    - devel
 - repo: fedora_43
   subrepo: updates
   srcname: scons
@@ -1293,22 +1240,6 @@
     - MIT
   categories:
     - dev-build
-- repo: gnuguix
-  srcname: scons
-  binname: scons
-  visiblename: scons
-  version: 4.9.1
-  origversion: null
-  status: outdated
-  summary: Software construction tool written in Python
-- repo: haikuports_master
-  srcname: dev-build/scons
-  visiblename: dev-build/scons
-  version: 4.11.1
-  origversion: null
-  status: newest
-  categories:
-    - dev-build
 - repo: homebrew
   srcname: scons
   visiblename: scons
@@ -1316,20 +1247,6 @@
   origversion: null
   status: newest
   summary: Substitute for classic 'make' tool with autoconf/automake functionality
-- repo: kali_rolling
-  subrepo: main
-  srcname: scons
-  binnames:
-    - scons
-    - scons-doc
-  visiblename: scons
-  version: 4.10.1
-  origversion: 4.10.1+dfsg-2
-  status: outdated
-  maintainers:
-    - gcs@debian.org
-  categories:
-    - devel
 - repo: kaos
   subrepo: apps
   srcname: scons
@@ -1436,20 +1353,6 @@
     - MIT
   categories:
     - devel
-- repo: openeuler_22_03_lts_sp3
-  srcname: scons
-  binnames:
-    - scons-doc
-    - python3-scons
-  visiblename: scons
-  version: 3.1.1
-  origversion: 3.1.1-5.oe2203sp3
-  status: outdated
-  summary: An Open Source software construction tool
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
 - repo: mageia_9
   subrepo: core/release
   srcname: scons
@@ -1632,6 +1535,17 @@
     - fallback-mnt-nix@repology
   licenses:
     - MIT
+- repo: nix_stable_25_11
+  srcname: scons
+  visiblename: scons
+  version: 4.10.0
+  origversion: null
+  status: outdated
+  summary: Improved, cross-platform substitute for Make
+  maintainers:
+    - fallback-mnt-nix@repology
+  licenses:
+    - MIT
 - repo: nix_stable_26_05
   srcname: scons
   visiblename: scons
@@ -1643,6 +1557,20 @@
     - fallback-mnt-nix@repology
   licenses:
     - MIT
+- repo: parrot
+  subrepo: parrot-updates/main
+  srcname: scons
+  binnames:
+    - scons
+    - scons-doc
+  visiblename: scons
+  version: 4.8.1
+  origversion: 4.8.1+dfsg-1
+  status: outdated
+  maintainers:
+    - gcs@debian.org
+  categories:
+    - devel
 - repo: nix_unstable
   srcname: scons
   visiblename: scons
@@ -1856,20 +1784,20 @@
     - MIT
   categories:
     - Unspecified
-- repo: raspbian_testing
-  subrepo: main
-  srcname: scons-doc
+- repo: openeuler_22_03_lts_sp3
+  srcname: scons
   binnames:
     - scons-doc
-  visiblename: scons-doc
-  version: 3.1.2
-  origversion: 3.1.2+repack-2
-  status: legacy
-  maintainers:
-    - debian@jff.email
-    - gcs@debian.org
+    - python3-scons
+  visiblename: scons
+  version: 3.1.1
+  origversion: 3.1.1-5.oe2203sp3
+  status: outdated
+  summary: An Open Source software construction tool
+  licenses:
+    - MIT
   categories:
-    - doc
+    - Unspecified
 - repo: openeuler_22_03_lts_sp4
   srcname: scons
   binnames:
@@ -1989,20 +1917,6 @@
     - MIT
   categories:
     - Development/Tools
-- repo: ubuntu_24_04
-  subrepo: noble/universe
-  srcname: scons
-  binnames:
-    - scons
-    - scons-doc
-  visiblename: scons
-  version: 4.5.2
-  origversion: 4.5.2+dfsg-1
-  status: outdated
-  maintainers:
-    - gcs@debian.org
-  categories:
-    - universe/devel
 - repo: openmandriva_6_0
   subrepo: main/release
   srcname: scons
@@ -2114,64 +2028,13 @@
   summary: Extensible Python-based build utility
   licenses:
     - MIT
-- repo: pardus_21
-  subrepo: main
-  srcname: scons
-  binnames:
-    - scons
-    - scons-doc
-  visiblename: scons
-  version: 4.0.1
-  origversion: 4.0.1+dfsg-2
-  status: outdated
-  maintainers:
-    - gcs@debian.org
-  categories:
-    - devel
-- repo: parrot
-  subrepo: parrot-updates/main
-  srcname: scons
-  binnames:
-    - scons
-    - scons-doc
-  visiblename: scons
-  version: 4.8.1
-  origversion: 4.8.1+dfsg-1
-  status: outdated
-  maintainers:
-    - gcs@debian.org
-  categories:
-    - devel
-- repo: parrot
-  subrepo: parrot/main
-  srcname: scons
-  binnames:
-    - scons
-    - scons-doc
-  visiblename: scons
-  version: 4.8.1
-  origversion: 4.8.1+dfsg-1
-  status: outdated
-  maintainers:
-    - gcs@debian.org
-  categories:
-    - devel
-- repo: pclinuxos
-  srcname: scons
-  visiblename: scons
-  version: 4.10.0
-  origversion: 4.10.0-1pclos2025
-  status: outdated
-  summary: Open Source software construction tool
-  categories:
-    - Development/Other
 - repo: pisi_main
   subrepo: core
   srcname: system/devel/scons
   visiblename: scons
-  version: 4.6.0
+  version: 4.11.1
   origversion: null
-  status: outdated
+  status: newest
   summary: An Open Source software construction tool
   maintainers:
     - admins@pisilinux.org
@@ -2340,6 +2203,34 @@
   categories:
     - devel
 - repo: raspbian_stable
+  subrepo: main
+  srcname: scons-doc
+  binnames:
+    - scons-doc
+  visiblename: scons-doc
+  version: 3.1.2
+  origversion: 3.1.2+repack-2
+  status: legacy
+  maintainers:
+    - debian@jff.email
+    - gcs@debian.org
+  categories:
+    - doc
+- repo: raspbian_testing
+  subrepo: main
+  srcname: scons
+  binnames:
+    - scons
+    - scons-doc
+  visiblename: scons
+  version: 4.10.1
+  origversion: 4.10.1+dfsg-2
+  status: outdated
+  maintainers:
+    - gcs@debian.org
+  categories:
+    - devel
+- repo: raspbian_testing
   subrepo: main
   srcname: scons-doc
   binnames:
@@ -2564,20 +2455,6 @@
   categories:
     - extra/development
 - repo: ubuntu_14_04
-  subrepo: trusty/universe
-  srcname: scons-doc
-  binnames:
-    - scons-doc
-  visiblename: scons-doc
-  version: 2.3.0
-  origversion: 2.3.0-2
-  status: outdated
-  maintainers:
-    - dktrkranz@debian.org
-    - broonie@debian.org
-  categories:
-    - universe/doc
-- repo: ubuntu_14_04
   subrepo: trusty-updates/main
   srcname: scons
   binnames:
@@ -2591,6 +2468,20 @@
     - broonie@debian.org
   categories:
     - devel
+- repo: ubuntu_14_04
+  subrepo: trusty/universe
+  srcname: scons-doc
+  binnames:
+    - scons-doc
+  visiblename: scons-doc
+  version: 2.3.0
+  origversion: 2.3.0-2
+  status: outdated
+  maintainers:
+    - dktrkranz@debian.org
+    - broonie@debian.org
+  categories:
+    - universe/doc
 - repo: ubuntu_14_04
   subrepo: trusty/main
   srcname: scons
@@ -2698,6 +2589,20 @@
   visiblename: scons
   version: 4.0.1
   origversion: 4.0.1+dfsg-2
+  status: outdated
+  maintainers:
+    - gcs@debian.org
+  categories:
+    - universe/devel
+- repo: ubuntu_24_04
+  subrepo: noble/universe
+  srcname: scons
+  binnames:
+    - scons
+    - scons-doc
+  visiblename: scons
+  version: 4.5.2
+  origversion: 4.5.2+dfsg-1
   status: outdated
   maintainers:
     - gcs@debian.org
@@ -2840,3 +2745,98 @@
   origversion: null
   status: newest
   summary: A software construction tool
+- repo: parrot
+  subrepo: parrot/main
+  srcname: scons
+  binnames:
+    - scons
+    - scons-doc
+  visiblename: scons
+  version: 4.8.1
+  origversion: 4.8.1+dfsg-1
+  status: outdated
+  maintainers:
+    - gcs@debian.org
+  categories:
+    - devel
+- repo: pclinuxos
+  srcname: scons
+  visiblename: scons
+  version: 4.10.0
+  origversion: 4.10.0-1pclos2025
+  status: outdated
+  summary: Open Source software construction tool
+  categories:
+    - Development/Other
+- repo: deepin_25
+  subrepo: main
+  srcname: scons
+  binnames:
+    - scons
+    - scons-doc
+  visiblename: scons
+  version: 4.5.2
+  origversion: 4.5.2+dfsg-1
+  status: outdated
+  maintainers:
+    - gcs@debian.org
+  categories:
+    - devel
+- repo: devuan_4_0
+  subrepo: chimaera/main
+  srcname: scons
+  binnames:
+    - scons
+    - scons-doc
+  visiblename: scons
+  version: 4.0.1
+  origversion: 4.0.1+dfsg-2
+  status: outdated
+  maintainers:
+    - gcs@debian.org
+  categories:
+    - devel
+- repo: devuan_unstable
+  subrepo: unstable/main
+  srcname: scons
+  binnames:
+    - scons
+    - scons-doc
+  visiblename: scons
+  version: 4.10.1
+  origversion: 4.10.1+dfsg-2
+  status: outdated
+  maintainers:
+    - gcs@debian.org
+  categories:
+    - devel
+- repo: kali_rolling
+  subrepo: main
+  srcname: scons
+  binnames:
+    - scons
+    - scons-doc
+  visiblename: scons
+  version: 4.10.1
+  origversion: 4.10.1+dfsg-2
+  status: outdated
+  maintainers:
+    - gcs@debian.org
+  categories:
+    - devel
+- repo: gnuguix
+  srcname: scons
+  binname: scons
+  visiblename: scons
+  version: 4.9.1
+  origversion: null
+  status: outdated
+  summary: Software construction tool written in Python
+- repo: haikuports_master
+  srcname: dev-build/scons
+  visiblename: dev-build/scons
+  version: 4.11.1
+  origversion: null
+  status: newest
+  categories:
+    - dev-build
