@@ -57,16 +57,16 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-01 | 0 | 25 | 1 | 0 | 1 | 102 |
-| last60d | 2026-09-01 | 0 | 35 | 2 | 1 | 2 | 125 |
-| 90d | 2026-08-02 | 2 | 43 | 2 | 3 | 2 | 170 |
-| last180d | 2026-05-04 | 2 | 72 | 6 | 6 | 3 | 287 |
-| 360d | 2025-11-05 | 3 | 126 | 9 | 8 | 5 | 496 |
-| last720d | 2024-11-10 | 6 | 217 | 11 | 30 | 15 | 849 |
+| 30d | 2026-10-02 | 0 | 24 | 1 | 0 | 1 | 94 |
+| last60d | 2026-09-02 | 0 | 35 | 2 | 1 | 2 | 115 |
+| 90d | 2026-08-03 | 2 | 43 | 2 | 3 | 2 | 157 |
+| last180d | 2026-05-05 | 2 | 72 | 6 | 6 | 3 | 276 |
+| 360d | 2025-11-06 | 3 | 126 | 9 | 8 | 5 | 496 |
+| last720d | 2024-11-11 | 6 | 217 | 11 | 29 | 15 | 848 |
 
 ## Distribution status
 
-Reported by **241** distros on [repology.org](https://repology.org/project/scons). **40** are ✅ on the latest upstream release, **138** are ⚠️ on an older version.
+Reported by **241** distros on [repology.org](https://repology.org/project/scons). **41** are ✅ on the latest upstream release, **137** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -92,4 +92,4 @@ Install metadata for scons lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261031.yml` · 2026-10-31T06:35:42Z._
+_Snapshot: `data/card/261101.yml` · 2026-11-01T07:04:48Z._
