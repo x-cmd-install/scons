@@ -43,30 +43,30 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `4.11.1` (2026-08-27)
-- **Last commit**: 2026-11-01
+- **Last commit**: 2026-11-03
 
 ## Popularity
 
-- **Stars**: 2,438 · **Forks**: 364 · **Open issues**: 3,455 · **Contributors**: 128
+- **Stars**: 2,438 · **Forks**: 363 · **Open issues**: 3,455 · **Contributors**: 128
 
 ## Totals (cumulative)
 
-- **Releases**: 18 · **Merged PRs**: 1243 · **Open PRs**: 24 · **Closed issues**: 2833 · **Open issues**: 622 · **Commits**: 10221
+- **Releases**: 18 · **Merged PRs**: 1243 · **Open PRs**: 24 · **Closed issues**: 2833 · **Open issues**: 622 · **Commits**: 10222
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-04 | 0 | 25 | 0 | 0 | 1 | 99 |
-| last60d | 2026-09-04 | 0 | 36 | 1 | 1 | 2 | 120 |
-| 90d | 2026-08-05 | 2 | 42 | 1 | 3 | 2 | 162 |
-| last180d | 2026-05-07 | 2 | 72 | 4 | 6 | 3 | 281 |
-| 360d | 2025-11-08 | 3 | 127 | 8 | 8 | 5 | 501 |
-| last720d | 2024-11-13 | 6 | 214 | 10 | 23 | 13 | 847 |
+| 30d | 2026-10-05 | 0 | 25 | 0 | 0 | 1 | 100 |
+| last60d | 2026-09-05 | 0 | 36 | 1 | 1 | 2 | 121 |
+| 90d | 2026-08-06 | 2 | 42 | 1 | 3 | 2 | 163 |
+| last180d | 2026-05-08 | 2 | 72 | 4 | 6 | 3 | 282 |
+| 360d | 2025-11-09 | 3 | 127 | 8 | 8 | 5 | 502 |
+| last720d | 2024-11-14 | 6 | 214 | 10 | 22 | 13 | 848 |
 
 ## Distribution status
 
-Reported by **241** distros on [repology.org](https://repology.org/project/scons). **39** are ✅ on the latest upstream release, **139** are ⚠️ on an older version.
+Reported by **241** distros on [repology.org](https://repology.org/project/scons). **40** are ✅ on the latest upstream release, **138** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -92,4 +92,4 @@ Install metadata for scons lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261103.yml` · 2026-11-03T08:04:50Z._
+_Snapshot: `data/card/261104.yml` · 2026-11-04T07:16:45Z._
