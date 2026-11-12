@@ -14,12 +14,12 @@ x install scons
 
 ## Code insight
 
-Total: **319,735** lines of code across **2414** files in the top 5 languages.
+Total: **320,008** lines of code across **2414** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Python | 164,446 | 50,977 | 38,098 | 1770 |
-| Xml | 78,859 | 5,031 | 7,992 | 544 |
+| Python | 164,699 | 50,997 | 38,126 | 1770 |
+| Xml | 78,879 | 5,031 | 8,020 | 544 |
 | XSL | 37,221 | 2,050 | 4,906 | 58 |
 | Svg | 29,535 | 19 | 15 | 19 |
 | ReStructuredText | 3,534 | 0 | 1,186 | 23 |
@@ -43,7 +43,7 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `4.11.1` (2026-08-27)
-- **Last commit**: 2026-11-09
+- **Last commit**: 2026-11-11
 
 ## Popularity
 
@@ -51,22 +51,22 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 18 · **Merged PRs**: 1244 · **Open PRs**: 28 · **Closed issues**: 2837 · **Open issues**: 618 · **Commits**: 10225
+- **Releases**: 18 · **Merged PRs**: 1246 · **Open PRs**: 26 · **Closed issues**: 2837 · **Open issues**: 618 · **Commits**: 10230
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-12 | 0 | 22 | 4 | 0 | 1 | 67 |
-| last60d | 2026-09-12 | 0 | 35 | 5 | 0 | 2 | 120 |
-| 90d | 2026-08-13 | 1 | 42 | 5 | 2 | 2 | 161 |
-| last180d | 2026-05-15 | 2 | 72 | 8 | 6 | 3 | 279 |
-| 360d | 2025-11-16 | 3 | 123 | 12 | 8 | 5 | 487 |
-| last720d | 2024-11-21 | 6 | 211 | 14 | 22 | 13 | 812 |
+| 30d | 2026-10-13 | 0 | 22 | 2 | 0 | 1 | 71 |
+| last60d | 2026-09-13 | 0 | 37 | 3 | 0 | 2 | 124 |
+| 90d | 2026-08-14 | 1 | 44 | 3 | 1 | 2 | 165 |
+| last180d | 2026-05-16 | 2 | 74 | 6 | 6 | 3 | 284 |
+| 360d | 2025-11-17 | 2 | 124 | 10 | 8 | 5 | 492 |
+| last720d | 2024-11-22 | 6 | 213 | 12 | 22 | 13 | 817 |
 
 ## Distribution status
 
-Reported by **241** distros on [repology.org](https://repology.org/project/scons). **42** are ✅ on the latest upstream release, **136** are ⚠️ on an older version.
+Reported by **239** distros on [repology.org](https://repology.org/project/scons). **42** are ✅ on the latest upstream release, **134** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -92,4 +92,4 @@ Install metadata for scons lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261111.yml` · 2026-11-11T07:37:09Z._
+_Snapshot: `data/card/261112.yml` · 2026-11-12T08:28:18Z._
