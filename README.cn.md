@@ -26,12 +26,12 @@ x install scons
 
 ## OpenSSF Scorecard 评分
 
-总评分: **4.1 / 10**
+总评分: **4.2 / 10**
 
 评分最低的几项:
 
-- **Packaging** (-1/10) — packaging workflow not detected
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
+- **Packaging** (-1/10) — packaging workflow not detected
 - **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
 
 ## 源代码
@@ -51,22 +51,22 @@ x install scons
 
 ## 累计统计
 
-- **发布数**: 18 · **已合并 PR**: 1247 · **开放 PR**: 29 · **已关闭 issue**: 2836 · **开放 issue**: 619 · **提交数**: 10233
+- **发布数**: 18 · **已合并 PR**: 1247 · **开放 PR**: 31 · **已关闭 issue**: 2841 · **开放 issue**: 614 · **提交数**: 10233
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-17 | 0 | 16 | 5 | 0 | 0 | 31 |
-| last60d | 2026-09-17 | 0 | 37 | 5 | 0 | 2 | 125 |
-| 90d | 2026-08-18 | 1 | 45 | 6 | 1 | 2 | 165 |
-| last180d | 2026-05-20 | 2 | 75 | 9 | 6 | 3 | 282 |
-| 360d | 2025-11-21 | 2 | 124 | 12 | 8 | 5 | 488 |
-| last720d | 2024-11-26 | 6 | 213 | 15 | 22 | 12 | 814 |
+| 30d | 2026-10-18 | 0 | 13 | 7 | 0 | 0 | 31 |
+| last60d | 2026-09-18 | 0 | 37 | 7 | 0 | 2 | 125 |
+| 90d | 2026-08-19 | 1 | 44 | 8 | 1 | 2 | 165 |
+| last180d | 2026-05-21 | 2 | 75 | 11 | 6 | 3 | 282 |
+| 360d | 2025-11-22 | 2 | 124 | 14 | 8 | 5 | 488 |
+| last720d | 2024-11-27 | 6 | 212 | 17 | 22 | 12 | 813 |
 
 ## 发行版状态
 
-在 [repology.org](https://repology.org/project/scons) 上共有 **239** 个发行版报告此项目。**42** 个 ✅ 已是最新上游版本，**134** 个 ⚠️ 使用旧版本。
+在 [repology.org](https://repology.org/project/scons) 上共有 **241** 个发行版报告此项目。**43** 个 ✅ 已是最新上游版本，**134** 个 ⚠️ 使用旧版本。
 
 | 发行版 | 版本 | 状态 |
 |--------|------|------|
@@ -92,4 +92,4 @@ scons 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261116.yml` · 2026-11-16T08:11:33Z._
+_数据快照: `data/card/261117.yml` · 2026-11-17T08:44:32Z._
