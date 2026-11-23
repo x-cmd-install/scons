@@ -14,11 +14,11 @@ x install scons
 
 ## Code insight
 
-Total: **320,195** lines of code across **2417** files in the top 5 languages.
+Total: **320,251** lines of code across **2422** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Python | 164,880 | 51,066 | 38,174 | 1773 |
+| Python | 164,936 | 51,103 | 38,195 | 1778 |
 | Xml | 78,883 | 5,031 | 8,020 | 544 |
 | XSL | 37,221 | 2,050 | 4,906 | 58 |
 | Svg | 29,535 | 19 | 15 | 19 |
@@ -51,18 +51,18 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 18 · **Merged PRs**: 1251 · **Open PRs**: 35 · **Closed issues**: 2854 · **Open issues**: 601 · **Commits**: 10244
+- **Releases**: 18 · **Merged PRs**: 1252 · **Open PRs**: 34 · **Closed issues**: 2856 · **Open issues**: 599 · **Commits**: 10247
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-23 | 0 | 12 | 11 | 0 | 0 | 23 |
-| last60d | 2026-09-23 | 0 | 37 | 11 | 0 | 2 | 131 |
-| 90d | 2026-08-24 | 1 | 47 | 12 | 1 | 2 | 152 |
-| last180d | 2026-05-26 | 2 | 77 | 14 | 6 | 3 | 276 |
-| 360d | 2025-11-27 | 2 | 126 | 18 | 8 | 5 | 490 |
-| last720d | 2024-12-02 | 6 | 216 | 21 | 23 | 11 | 823 |
+| 30d | 2026-10-24 | 0 | 11 | 10 | 0 | 0 | 26 |
+| last60d | 2026-09-24 | 0 | 38 | 10 | 0 | 2 | 134 |
+| 90d | 2026-08-25 | 1 | 48 | 11 | 1 | 2 | 155 |
+| last180d | 2026-05-27 | 2 | 78 | 13 | 6 | 3 | 279 |
+| 360d | 2025-11-28 | 2 | 127 | 17 | 8 | 5 | 493 |
+| last720d | 2024-12-03 | 6 | 217 | 20 | 23 | 11 | 826 |
 
 ## Distribution status
 
@@ -92,4 +92,4 @@ Install metadata for scons lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261122.yml` · 2026-11-22T07:30:24Z._
+_Snapshot: `data/card/261123.yml` · 2026-11-23T10:32:56Z._
