@@ -30,8 +30,8 @@ x install scons
 
 评分最低的几项:
 
-- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 - **Packaging** (-1/10) — packaging workflow not detected
+- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 - **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
 
 ## 源代码
@@ -51,18 +51,18 @@ x install scons
 
 ## 累计统计
 
-- **发布数**: 18 · **已合并 PR**: 1252 · **开放 PR**: 34 · **已关闭 issue**: 2856 · **开放 issue**: 599 · **提交数**: 10247
+- **发布数**: 18 · **已合并 PR**: 1252 · **开放 PR**: 35 · **已关闭 issue**: 2856 · **开放 issue**: 599 · **提交数**: 10247
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-24 | 0 | 11 | 10 | 0 | 0 | 26 |
-| last60d | 2026-09-24 | 0 | 38 | 10 | 0 | 2 | 134 |
-| 90d | 2026-08-25 | 1 | 48 | 11 | 1 | 2 | 155 |
-| last180d | 2026-05-27 | 2 | 78 | 13 | 6 | 3 | 279 |
-| 360d | 2025-11-28 | 2 | 127 | 17 | 8 | 5 | 493 |
-| last720d | 2024-12-03 | 6 | 217 | 20 | 23 | 11 | 826 |
+| 30d | 2026-10-25 | 0 | 11 | 11 | 0 | 0 | 26 |
+| last60d | 2026-09-25 | 0 | 38 | 11 | 0 | 1 | 134 |
+| 90d | 2026-08-26 | 1 | 48 | 12 | 1 | 2 | 155 |
+| last180d | 2026-05-28 | 2 | 72 | 14 | 6 | 3 | 279 |
+| 360d | 2025-11-29 | 2 | 127 | 18 | 8 | 5 | 493 |
+| last720d | 2024-12-04 | 6 | 217 | 21 | 23 | 11 | 826 |
 
 ## 发行版状态
 
@@ -92,4 +92,4 @@ scons 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261123.yml` · 2026-11-23T10:32:57Z._
+_数据快照: `data/card/261124.yml` · 2026-11-24T10:27:59Z._
