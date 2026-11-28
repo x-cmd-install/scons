@@ -7,7 +7,7 @@ about:
   latestVersion: "4.11.1"
   latestRelease: "4.11.1"
   latestPrerelease: "3.0.5a2"
-  collectedAt: 2026-11-27T10:18:28Z
+  collectedAt: 2026-11-28T08:45:36Z
 timeline:
   created: 2017-09-24
   lastCommit: 2026-11-27
@@ -20,7 +20,7 @@ popularity:
   fork: 366
   release: 18
   contributor: 128
-  pullRequest: 1433
+  pullRequest: 1434
   issue: 3455
 language:
   Python: 8622736
@@ -46,63 +46,63 @@ language:
 totalBytes: 9807474
 recent:
   last30d:
-    since: 2026-10-28
+    since: 2026-10-29
     release: 0
-    mergedPR: 12
-    openPR: 10
+    mergedPR: 11
+    openPR: 11
     closedIssue: 0
     openIssue: 0
     commit: 37
   last60d:
-    since: 2026-09-28
+    since: 2026-09-29
     release: 0
     mergedPR: 39
-    openPR: 10
+    openPR: 11
     closedIssue: 0
     openIssue: 1
     commit: 145
   last90d:
-    since: 2026-08-29
+    since: 2026-08-30
     release: 0
     mergedPR: 48
-    openPR: 11
+    openPR: 12
     closedIssue: 1
     openIssue: 2
     commit: 166
   last180d:
-    since: 2026-05-31
+    since: 2026-06-01
     release: 2
     mergedPR: 74
-    openPR: 13
+    openPR: 14
     closedIssue: 6
     openIssue: 3
     commit: 290
   last360d:
-    since: 2025-12-02
+    since: 2025-12-03
     release: 2
-    mergedPR: 127
-    openPR: 17
+    mergedPR: 126
+    openPR: 18
     closedIssue: 8
     openIssue: 5
     commit: 504
   last720d:
-    since: 2024-12-07
+    since: 2024-12-08
     release: 6
     mergedPR: 218
-    openPR: 20
+    openPR: 21
     closedIssue: 23
-    openIssue: 11
+    openIssue: 10
     commit: 831
 total:
   release: 18
   mergedPR: 1254
-  openPR: 33
+  openPR: 34
   closedIssue: 2859
   openIssue: 596
   commit: 10254
 ---
 path: /home/runner/.x-repo/github.com/SCons/scons
-collectedAt: 2026-11-27T10:18:46Z
+collectedAt: 2026-11-28T08:45:44Z
 loc:
   Python:
     code: 164936
